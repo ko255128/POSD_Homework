@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ERDiagramDrawer", "ERDiagramDrawer\ERDiagramDrawer.vcxproj", "{83D60F68-3938-4E63-8C33-E2F9003BF0AC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ERDiagramGUI", "ERDiagramGUI\ERDiagramGUI.vcxproj", "{D5688E15-4CD0-47CE-9F92-E2A35DDF5206}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ERDiagramDrawerTest", "ERDiagramDrawerTest\ERDiagramDrawerTest.vcxproj", "{FA0A4421-12B1-463B-9252-7158F21F69DC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{83D60F68-3938-4E63-8C33-E2F9003BF0AC} = {83D60F68-3938-4E63-8C33-E2F9003BF0AC}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83D60F68-3938-4E63-8C33-E2F9003BF0AC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{83D60F68-3938-4E63-8C33-E2F9003BF0AC}.Debug|Win32.Build.0 = Debug|Win32
+		{83D60F68-3938-4E63-8C33-E2F9003BF0AC}.Release|Win32.ActiveCfg = Release|Win32
+		{83D60F68-3938-4E63-8C33-E2F9003BF0AC}.Release|Win32.Build.0 = Release|Win32
+		{D5688E15-4CD0-47CE-9F92-E2A35DDF5206}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D5688E15-4CD0-47CE-9F92-E2A35DDF5206}.Debug|Win32.Build.0 = Debug|Win32
+		{D5688E15-4CD0-47CE-9F92-E2A35DDF5206}.Release|Win32.ActiveCfg = Release|Win32
+		{D5688E15-4CD0-47CE-9F92-E2A35DDF5206}.Release|Win32.Build.0 = Release|Win32
+		{FA0A4421-12B1-463B-9252-7158F21F69DC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FA0A4421-12B1-463B-9252-7158F21F69DC}.Debug|Win32.Build.0 = Debug|Win32
+		{FA0A4421-12B1-463B-9252-7158F21F69DC}.Release|Win32.ActiveCfg = Release|Win32
+		{FA0A4421-12B1-463B-9252-7158F21F69DC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FA0A4421-12B1-463B-9252-7158F21F69DC}</ProjectGuid>
+    <Keyword>Qt4VSv1.0</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\ERDiagramDrawer;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>UNICODE;WIN32;QT_LARGEFILE_SUPPORT;QT_DLL;QT_CORE_LIB;QT_GUI_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Optimization>Disabled</Optimization>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <AdditionalIncludeDirectories>C:\gtest\include;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>$(OutDir)\$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>qtmaind.lib;QtCored4.lib;QtGuid4.lib;C:\gtest\lib\gtestd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>UNICODE;WIN32;QT_LARGEFILE_SUPPORT;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;QT_GUI_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <AdditionalIncludeDirectories>.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>$(OutDir)\$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <AdditionalDependencies>qtmain.lib;QtCore4.lib;QtGui4.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\ERDiagramDrawer\AddCommand.cpp" />
+    <ClCompile Include="..\ERDiagramDrawer\AddNodeState.cpp" />
+    <ClCompile Include="..\ERDiagramDrawer\AddPrimaryKeyCommand.cpp" />
+    <ClCompile Include="..\ERDiagramDrawer\Attribute.cpp" />
+    <ClCompile Include="..\ERDiagramDrawer\Command.cpp" />
+    <ClCompile Include="..\ERDiagramDrawer\CommandManager.cpp" />
+    <ClCompile Include="..\ERDiagramDrawer\Compoment.cpp" />
+    <ClCompile Include="..\ERDiagramDrawer\CompomentFactory.cpp" />
+    <ClCompile Include="..\ERDiagramDrawer\ConnectComponentCommand.cpp" />
+    <ClCompile Include="..\ERDiagramDrawer\Connection.cpp" />
+    <ClCompile Include="..\ERDiagramDrawer\ConnectState.cpp" />
+    <ClCompile Include="..\ERDiagramDrawer\DeleteCommand.cpp" />
+    <ClCompile Include="..\ERDiagramDrawer\EditTextCommand.cpp" />
+    <ClCompile Include="..\ERDiagramDrawer\Entity.cpp" />
+    <ClCompile Include="..\ERDiagramDrawer\ERModel.cpp" />
+    <ClCompile Include="..\ERDiagramDrawer\FileControl.cpp" />
+    <ClCompile Include="..\ERDiagramDrawer\MoveCommand.cpp" />
+    <ClCompile Include="..\ERDiagramDrawer\Node.cpp" />
+    <ClCompile Include="..\ERDiagramDrawer\Observer.cpp" />
+    <ClCompile Include="..\ERDiagramDrawer\PasteCommand.cpp" />
+    <ClCompile Include="..\ERDiagramDrawer\PointerState.cpp" />
+    <ClCompile Include="..\ERDiagramDrawer\PresentationModel.cpp" />
+    <ClCompile Include="..\ERDiagramDrawer\Relationship.cpp" />
+    <ClCompile Include="..\ERDiagramDrawer\SaveComponentVisitor.cpp" />
+    <ClCompile Include="..\ERDiagramDrawer\saveXmlComponentVisitor.cpp" />
+    <ClCompile Include="..\ERDiagramDrawer\setPrimaryKeyState.cpp" />
+    <ClCompile Include="..\ERDiagramDrawer\State.cpp" />
+    <ClCompile Include="..\ERDiagramDrawer\Subject.cpp" />
+    <ClCompile Include="..\ERDiagramDrawer\TextUI.cpp" />
+    <ClCompile Include="AttributeTest.cpp" />
+    <ClCompile Include="ComponentTest.cpp" />
+    <ClCompile Include="ConnectionTest.cpp" />
+    <ClCompile Include="EntityTest.cpp" />
+    <ClCompile Include="ERModelTest.cpp" />
+    <ClCompile Include="IntegrationTest.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="RelationshipTest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AttributeTest.h" />
+    <ClInclude Include="ComponentTest.h" />
+    <ClInclude Include="ConnectionTest.h" />
+    <ClInclude Include="EntityTest.h" />
+    <ClInclude Include="ERModelTest.h" />
+    <ClInclude Include="IntegrationTest.h" />
+    <ClInclude Include="RelationshipTest.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties UicDir=".\GeneratedFiles" MocDir=".\GeneratedFiles\$(ConfigurationName)" MocOptions="" RccDir=".\GeneratedFiles" lupdateOnBuild="0" lupdateOptions="" lreleaseOptions="" QtVersion_x0020_Win32="4.8.3" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

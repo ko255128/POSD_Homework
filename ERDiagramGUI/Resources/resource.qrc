@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file alias="exit.png">picture/exit.png</file>
+        <file alias="open.png">picture/open.png</file>
+        <file alias="connect.png">picture/connect.png</file>
+        <file alias="restangle.png">picture/restangle.png</file>
+        <file alias="ellipse.png">picture/ellipse.png</file>
+        <file alias="rhombus.png">picture/rhombus.png</file>
+        <file alias="mouse.png">picture/mouse.png</file>
+        <file alias="erdiagram.png">picture/erdiagram.png</file>
+        <file alias="delete.png">picture/delete.png</file>
+        <file alias="redo.png">picture/redo.png</file>
+        <file alias="undo.png">picture/undo.png</file>
+        <file alias="primarykey.png">picture/primarykey.png</file>
+        <file alias="savefile.png">picture/savefile.png</file>
+        <file alias="cut.png">picture/cut.png</file>
+        <file alias="copy.png">picture/copy.png</file>
+        <file alias="paste.png">picture/paste.png</file>
+        <file alias="table.png">picture/table.png</file>
+        <file alias="pk.png">picture/pk.png</file>
+        <file alias="fk.png">picture/fk.png</file>
+        <file alias="displayTable.jpg">picture/displayTable.jpg</file>
+      
+    </qresource>
+</RCC>

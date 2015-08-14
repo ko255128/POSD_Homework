@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Source Files\Model">
+      <UniqueIdentifier>{81e164bf-2799-4c49-9b79-40a1c6841fa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model\Command">
+      <UniqueIdentifier>{e6e554fe-afed-4251-99e2-04eefa560977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model\Component">
+      <UniqueIdentifier>{7e6fbe65-7a15-46f1-9a5c-c4f201462c1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model\Models">
+      <UniqueIdentifier>{6bb5692c-3655-4667-8142-5d6347eb810b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model\Observer">
+      <UniqueIdentifier>{015e3fd9-1e05-41df-92f4-df36c7d04ac5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model\State">
+      <UniqueIdentifier>{7b414809-e807-4a6d-8016-ff296387b511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model\Visitor">
+      <UniqueIdentifier>{a7e62454-d52f-4c5c-b207-d6aa74d6189e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributeTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectionTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ERModelTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IntegrationTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RelationshipTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ERDiagramDrawer\AddCommand.cpp">
+      <Filter>Source Files\Model\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ERDiagramDrawer\AddPrimaryKeyCommand.cpp">
+      <Filter>Source Files\Model\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ERDiagramDrawer\Command.cpp">
+      <Filter>Source Files\Model\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ERDiagramDrawer\CommandManager.cpp">
+      <Filter>Source Files\Model\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ERDiagramDrawer\ConnectComponentCommand.cpp">
+      <Filter>Source Files\Model\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ERDiagramDrawer\DeleteCommand.cpp">
+      <Filter>Source Files\Model\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ERDiagramDrawer\EditTextCommand.cpp">
+      <Filter>Source Files\Model\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ERDiagramDrawer\MoveCommand.cpp">
+      <Filter>Source Files\Model\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ERDiagramDrawer\PasteCommand.cpp">
+      <Filter>Source Files\Model\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ERDiagramDrawer\TextUI.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ERDiagramDrawer\Attribute.cpp">
+      <Filter>Source Files\Model\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ERDiagramDrawer\Compoment.cpp">
+      <Filter>Source Files\Model\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ERDiagramDrawer\Connection.cpp">
+      <Filter>Source Files\Model\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ERDiagramDrawer\Entity.cpp">
+      <Filter>Source Files\Model\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ERDiagramDrawer\Node.cpp">
+      <Filter>Source Files\Model\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ERDiagramDrawer\Relationship.cpp">
+      <Filter>Source Files\Model\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ERDiagramDrawer\ERModel.cpp">
+      <Filter>Source Files\Model\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ERDiagramDrawer\PresentationModel.cpp">
+      <Filter>Source Files\Model\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ERDiagramDrawer\Observer.cpp">
+      <Filter>Source Files\Model\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ERDiagramDrawer\Subject.cpp">
+      <Filter>Source Files\Model\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ERDiagramDrawer\AddNodeState.cpp">
+      <Filter>Source Files\Model\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ERDiagramDrawer\ConnectState.cpp">
+      <Filter>Source Files\Model\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ERDiagramDrawer\PointerState.cpp">
+      <Filter>Source Files\Model\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ERDiagramDrawer\setPrimaryKeyState.cpp">
+      <Filter>Source Files\Model\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ERDiagramDrawer\State.cpp">
+      <Filter>Source Files\Model\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ERDiagramDrawer\SaveComponentVisitor.cpp">
+      <Filter>Source Files\Model\Visitor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ERDiagramDrawer\saveXmlComponentVisitor.cpp">
+      <Filter>Source Files\Model\Visitor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ERDiagramDrawer\CompomentFactory.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ERDiagramDrawer\FileControl.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AttributeTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectionTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ERModelTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegrationTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RelationshipTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
